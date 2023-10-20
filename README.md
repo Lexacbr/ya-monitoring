@@ -69,4 +69,6 @@
 
 ![скриншот](https://github.com/Lexacbr/ya-monitoring/blob/master/screenshots/dash.png)
 
+Это скриншот из почты 
+
 ![скриншот](https://github.com/Lexacbr/ya-monitoring/blob/master/screenshots/email.png)
