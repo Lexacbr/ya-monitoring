@@ -35,11 +35,11 @@
 
 1. В окне браузера открыл облачную платформу Yandex Cloud и перешёл в раздел "Все сервисы" > "Инфраструктура и сеть" > "Compute Cloud" > "Виртуальные машины" и нажал на кнопку "Создать ВМ"
 
-![скриншот](https://github.com/Lexacbr/ya-monitoring/blob/main/screenshots/vm-create.png)
+![скриншот](https://github.com/Lexacbr/ya-monitoring/blob/master/screenshots/vm-create.png)
 
 2.  Задайте имя виртуальной машины. Использовал английские буквы и цифры. Выберал операционную систему Debian 11. Установил объём HDD равный 3ГБ. Выбрал платформу Intel Ice Lake. Установил количество vCPU равное 2. Установил гарантированную долю vCPU равную 20%. Задал количество RAM равное 1ГБ. Поставил галочку "Прерываемая"
 
-![скриншот](https://github.com/Lexacbr/ya-monitoring/blob/main/screenshots/cpu-choise.png)
+![скриншот](https://github.com/Lexacbr/ya-monitoring/blob/master/screenshots/cpu-choise.png)
  
 3. В разделе "Доступ" выбрал сервисный аккаунт с ролью monitoring.editor. Задал логин учётной записи виртуальной машины. Вставил публичный SHH-ключ в поле SSH-ключ. Поставил галочку "Установить" в пункте "Агент сбора метрик". Нажал на синюю кнопку "Создать ВМ"  
 
@@ -47,9 +47,9 @@
 
 4. Перешёл в раздел "Все сервисы" > "Инфраструктура и сеть" > "Monitoring". Нажал на кнопку "Создать дашборд", расположенную в разделе "Возможности сервиса" > "Дашборды". В открывшемся окне в разделе "Добавить виджет" нажал на "График". Перед мной предстал конструктор запросов, выбрал "Запрос А". В параметре service конструктора запросов выбрал Compute Cloud. В появившемся параметре name конструктора запросов выбрал cpu_utilization. Поправил диапазон времени отрисовки графика нажав на кнопку "Сейчас" в верху экрана, левее кнопок 3m, 1h, 1d, 1w, "Отменить". Нажал на кнопку "Сохранить" в правом верхнем углу экрана.Задал имя дашборда "CPU_Util". Сделал скриншот
 
-![скриншот](https://github.com/Lexacbr/ya-monitoring/blob/main/screenshots/dash-cho.png)
+![скриншот](https://github.com/Lexacbr/ya-monitoring/blob/master/screenshots/dash-cho.png)
 
-![скриншот](https://github.com/Lexacbr/ya-monitoring/blob/main/screenshots/dash-end.png)
+![скриншот](https://github.com/Lexacbr/ya-monitoring/blob/master/screenshots/dash-end.png)
 
 ---
 
